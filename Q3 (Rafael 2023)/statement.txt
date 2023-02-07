@@ -1,0 +1,10 @@
+(english)
+You receive a number of jars of unknown sizes and also a faucet. 
+You need to measure a certain amount, let's call it X.
+How do you solve it? Efficiency is not important, nor does it have to be a solution, 
+but if it exists, it should be found.
+
+(hebrew)
+אתה מקבל מספר כדים בגדלים לא ידועים וברז ואתה צריך למדוד כמות מסוימת, נקרא לה X. 
+איך אתה פותר את זה ? לא חשוב היעילות, וגם לא חייב להיות פתרון, אבל אם הוא קיים צריך למצוא אותו.
+  
