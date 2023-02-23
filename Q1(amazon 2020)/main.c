@@ -123,12 +123,13 @@ int get_packet(
         return 0;
     }
     
+    // Set the packet's attributes to the "most updated packet".
     output_packet->arrival_time = heads_arr[priority_num]->arrival_time;
     output_packet->priority = heads_arr[priority_num]->priority;
 
     ptr_to_packet_getted = heads_arr[priority_num];
 
-    // Update the linked list of the corresponding to the get packet:
+    // Update the linked list that correspond to the "most updated packet":
     if (heads_arr[priority_num] == tails_arr[priority_num])
     {
         heads_arr[priority_num] = NULL;
@@ -139,7 +140,7 @@ int get_packet(
         heads_arr[priority_num] = heads_arr[priority_num]->next;
     }
 
-    // Update the hole linked list.
+    // Update the hole linked list:
     if (head_hole == NULL)
     {
         head_hole = ptr_to_packet_getted;
@@ -164,9 +165,9 @@ int main()
         *heads_arr[4], *tails_arr[4], *head_hole = NULL, *tail_hole = NULL,
                                       pck1, pck2; // packets declarations
 
-    struct packet output_packet[1];
+    struct packet output_packet[1]; //buffer for the getted packet
 
-    int num_of_packet = 0;
+    int num_of_packet = 0; // the number of written packet in the memory
 
     for (int i = 0; i < 4; i++)
     {
@@ -174,11 +175,13 @@ int main()
         tails_arr[i] = NULL;
     }
 
-    // RANDOM SIMULATION:
+    // RANDOM SIMULATION: //
     int curr_time = 0;
     srand(time(0));
     while (curr_time < MEM_LENGTH*300)
     {
+
+        // Try to insert a new packet every "unit of time":
         pck1.priority = chooseRandoms(0, 1);
         pck1.arrival_time = curr_time;
         curr_time++;
@@ -191,6 +194,8 @@ int main()
             num_of_packet,
             memory_packets);
 
+
+        // Try to get a packet with a chance of 1 over 2:
         if(chooseRandoms(0,1)){
             num_of_packet += get_packet(
                 heads_arr,
