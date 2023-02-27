@@ -1,0 +1,1 @@
+ What is the most efficient way to find the minimum of every 3X3 cells of 16X16 matrix
