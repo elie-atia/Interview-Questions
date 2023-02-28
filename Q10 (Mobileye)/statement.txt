@@ -1,0 +1,2 @@
+Given an array with numbers in range (0-255), find the number that is specific Percentage.
+
