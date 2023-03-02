@@ -1,0 +1,4 @@
+1. remove spaces from a string in python (without using the remove function)
+
+2. there is a list of different songs you need to play them randomly without repeating song
+
