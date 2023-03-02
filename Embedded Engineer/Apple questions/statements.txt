@@ -2,3 +2,9 @@
 
 2. there is a list of different songs you need to play them randomly without repeating song
 
+3. You have an array of memory.  Implement the writte() and read(index) with 0(1)  (I wrote this question)
+
+link:
+https://www.glassdoor.com/Interview/Apple-Israel-Interview-Questions-EI_IE1138.0,5_IL.6,12_IN119_IP2.htm
+
+
