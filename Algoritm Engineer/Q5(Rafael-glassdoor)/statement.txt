@@ -1,2 +1,0 @@
-write a function which returns the index of a merged node in linked list 
-(index when happens a collision between two linked list)

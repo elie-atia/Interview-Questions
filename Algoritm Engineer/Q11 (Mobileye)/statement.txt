@@ -1,5 +1,0 @@
-given a 2d array and a list of "rectangles" inside the array, sum the values of all 
-elements inside the rectangles (with repetition)
-
-
-the trick is to use a preprocessing approach using the Inclusion–exclusion principle.

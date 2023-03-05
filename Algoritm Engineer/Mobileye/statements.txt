@@ -1,0 +1,9 @@
+1. write an algorithm that find the convex hull of a set of points in the 2D plane   
+2. What is the most efficient way to find the minimum of every 3X3 cells of 16X16 matrix
+3. implement a binary tree in python.
+4. Write a method to return all subsets of a set
+5. Given an array with numbers in range (0-255), find the number that is specific Percentage.
+6. given a 2d array and a list of "rectangles" inside the array, sum the values of all 
+elements inside the rectangles (with repetition).
+the trick is to use a preprocessing approach using the Inclusion–exclusion principle.
+7.  find paths in a 2-d array
